@@ -41,7 +41,7 @@ app.use((req, res, next) => {
 
 /* Global error handler */
 app.use((err, req, res, next) => {
-
+  console.log('testing');
   if (err) {
     console.log('Global error handler called', err);
   }
